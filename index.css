@@ -1,0 +1,121 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    height: auto;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    
+}
+.tabs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+.tab-bar {
+    display: flex;
+    overflow-x: auto;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.tab.active {
+    background:none;
+    border: 2px solid rgb(255, 8, 202);
+    color: white;
+}
+
+.tab-content {
+    flex: 1;
+    position: relative;
+    
+}
+
+.tab-panel {
+    display: none;
+}
+
+.tab-panel.active {
+    display: block;
+}
+
+
+.url-input {
+    width: 90%;
+    padding: 20px 20px;
+    border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  
+  box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 1rem #bc13fe,
+              0 0 0.4rem #bc13fe,
+              0 0 1.4rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
+    font-size: 25px;
+    color: white;
+}
+
+.go-button {
+    background: linear-gradient(90deg, rgb(225, 90, 237), rgb(198, 41, 241), violet, purple);
+ font-size: 20px;
+ text-transform: uppercase;
+ color: white;
+ padding: 20px 20px;
+ border-radius: 2rem;
+ border: 0.2rem solid #fff ;
+ box-shadow: 0 0 .1rem #fff,
+ 0 0 .1rem #fff,
+ 0 0 1rem #bc13fe,
+ 0 0 0.4rem #bc13fe,
+ 0 0 1.4rem #bc13fe,
+ inset 0 0 1.3rem #bc13fe;
+}
+
+.content-frame {
+    width: 100%;
+    height: calc(100% - 40px);
+    border: none;
+}
+
+.close-btn{
+    color: red;
+    padding-left: 20px;
+    background:  none;
+}
+
+.addtab{
+    padding: 0;
+    background: none;
+    border: none;
+    color: violet;
+    font-size: 40px;
+    font-weight: 500;
+}
+.searchinput{
+   
+}
+.tab-content{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.search-btn{
+ 
+}
+.content-frame{
+    margin-top: 20px;
+    width: 100%;
+    background-color: white;
+}
