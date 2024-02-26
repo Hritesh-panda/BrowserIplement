@@ -1,1 +1,1 @@
-https://github.com/Hritesh-panda/BrowserIplement.git
+https://taupe-jalebi-a70af5.netlify.app/
